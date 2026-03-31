@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+     #container{
+        width: 100%;
+        margin: 0px auto;
+        border: 0px solid black;
+     }
+        
+
+        header{
+            background-color: rgb(187, 228, 91);
+            height: 100px;
+            width: 100%;
+            text-align: center;
+            line-height: 100px;
+            color: rgb(0, 0, 0);
+            border-bottom: 3px solid black;
+
+        }
+
+       .menu {
+            background-color: red;     
+            width: 70%;                  
+            margin: 20px auto;            
+            border-radius: 50px;         
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Sombrita suave abajo */
+            text-align: center;          
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 15px 0;             
+        }
+
+        .menu li {
+            display: inline-block;
+            margin: 0 15px;               
+            border-right: 2px solid white;  
+            padding-right: 20px;            
+            margin-right: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;        
+            color: white;                 
+            font-size: 18px;
+            font-weight: bold;           
+            font-family: sans-serif;
+        }
+
+        .menu a:hover {
+            color: black;                  
+        }  
+
+        .clearfix{
+            clear: both;
+        }
+
+        #content{
+            float: left;
+            width: 96%;
+            min-height: 1000px;
+            background-color: rgb(92, 92, 92);
+            padding: 40px;
+        }
+
+        .article{
+            color: rgb(0, 0, 0);
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+        }
+
+        .article:first-child{
+            padding-top: 10px;
+            border-top: 1px solid #eee;
+        }
+        
+        .article a {
+            color: black;           
+            text-decoration: none; 
+        }
+
+        .article a:hover {
+            color: rgb(226, 0, 0);          
+            cursor: pointer;    
+        }
+
+        form {
+            background-color: #ffffff;
+            max-width: 650px;           
+            margin: 50px auto;          
+            padding: 40px;              
+            border-radius: 20px;        
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+            border: 1px solid #f0f0f0;  
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        }
+
+        form label {
+            display: block;             
+            margin-bottom: 8px;
+            margin-top: 15px;           
+            font-weight: bold;
+            color: black;
+            font-size: 15px;
+            font-weight: bold; 
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="date"],
+        form select,
+        form textarea {
+            width: 100%;
+            padding: 12px 15px;         
+            border: 2px solid #eee;     
+            border-radius: 10px;        
+            background-color: #fafafa;  
+            font-size: 16px;
+            box-sizing: border-box;
+        }   
+
+        form input:focus,
+        form select:focus,
+        form textarea:focus {
+            border-color: red;       
+            background-color: white;    
+            outline: none;              
+            box-shadow: 0 0 8px rgba(255, 165, 0, 0.2);
+        }
+
+        .genero label {
+            display: inline;      
+            margin-right: 15px;
+            font-weight: normal;   
+        }
+
+        #titulo-genero {
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        .genero input {
+            width: auto;           
+            margin-right: 5px;
+            margin-top: 20px;    
+        }
+
+        .botones-form {
+            margin-top: 30px;
+            text-align: center;        
+        }
+
+        form input[type="submit"],
+        form input[type="reset"] {
+            padding: 12px 40px;
+            border: none;
+            border-radius: 50px;       
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 0 10px;            
+        }
+
+        form input[type="submit"] {
+            background: red;
+            color: white;
+            box-shadow: 0 4px 15px rgba(255, 165, 0, 0.4);
+        }
+
+        form input[type="submit"]:hover {
+            background-color: darkred;
+        }
+
+        form input[type="reset"] {
+            background-color: #666;
+            color: white;
+        }
+
+        form input[type="reset"]:hover {
+            background-color: #444;
+        }
+
+        footer{
+            background: black;
+            color: white;
+            text-align: center;
+            height: 100px;
+            line-height: 50px;
+        }
+
+        footer a {
+            color: white;          
+            text-decoration: none;  
+            font-weight: bold;      
+        }
+
+        footer a:hover {
+            color: orange;        
+            text-decoration: underline;
+        }
