@@ -1,0 +1,10 @@
+# PARA INICIAR SESIÓN TIENES QUE PPNER LO SIGUIENTE
+USUARIO: 
+'''
+  user
+'''
+
+CONTRASEÑA: 
+'''
+  user
+'''
