@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imagenes/moto-gp.png">
+    <title>LAS MOTOS</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script_login.js" defer></script>
+</head>
+<body id="arriba">
+
+    <div id="pantalla-login">
+        <div class="caja-login">
+            <h2>Acceso a la página MotoGP</h2>
+            <p>Introduce tus credenciales</p>
+            
+            <input type="text" id="usuario" placeholder="Usuario">
+            <br>
+            <input type="password" id="password" placeholder="Contraseña">
+            <br>
+            
+            <button onclick="verificarCredenciales()">Entrar</button>
+            <p id="mensaje-error" style="color: red; font-weight: bold;"></p>
+        </div>
+    </div>
+
+    <div id="contenido-principal" class="oculto">
+        <div id="container">
+    <header>
+        <button onclick="cerrarSesion()" class="boton-salir">Cerrar Sesión</button>
+        <h1>Las Motos y MotoGP</h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="informacion_relevante.html">Información Relevante</a></li>
+                <li><a href="pagina_contacto.html">Página de Contacto</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+     
+    <div class="clearfix"></div>
+
+    <main>
+        <section id="content">
+            <h2>Noticias</h2>
+            <p>En este apartado encontrarás noticias relevantes sobre pilotos y carreras.</p>
+            
+            <article class="article">
+                <div class="texto-noticia">
+                <a href="Marq_marquez.html"><h3>Marq Márquez</h3></a>
+                <p>
+                    Marc Márquez es un piloto español de <b>MotoGP</b> nacido en 1993 en Cervera. Es uno de los motociclistas más exitosos de la historia, conocido por su estilo agresivo y espectacular. Comenzó ganando los <b>campeonatos</b> de 125cc en 2010 y Moto2 en 2012. Debutó en <b>MotoGP</b> en 2013 y ganó el título en su primer año, iniciando una época de dominio en la categoría.
+                </p>
+                <p>
+                    A pesar de <i>lesiones importantes</i> y etapas difíciles, ha sabido reinventarse. Su paso reciente a <b>Ducati</b> marcó un nuevo impulso en su carrera, devolviéndole competitividad y confianza. Hoy sigue siendo un referente absoluto del motociclismo.
+                </p>
+                <time>19-11-2025</time>
+                </div>
+
+                <img src="imagenes/marc-marquez.jpeg" width="280">
+            </article>
+            
+            <article class="article">
+                <div class="texto-noticia">
+                <a href="Jorge_lorenzo.html"><h3>Jorge Lorenzo</h3></a>
+                <p>
+                    Jorge Lorenzo es un expiloto español de <b>MotoGP</b>, nacido en 1987 en Palma de Mallorca, considerado uno de los grandes del motociclismo moderno. Tras destacar en categorías inferiores y <b>ganar</b> dos títulos en 250cc, debutó en <b>MotoGP</b> en 2008 con Yamaha, donde desarrolló un estilo de pilotaje muy fino y preciso. Con este equipo logró sus mayores éxitos: tres campeonatos <b>mundiales</b> (2010, 2012 y 2015) y una intensa rivalidad con Valentino Rossi.
+                </p>
+                <p>
+                    Más tarde compitió con <b>Ducati y Honda</b>, etapas marcadas por lesiones y dificultades de adaptación. En <b>2019 anunció su retirada</b>. Desde entonces se ha mantenido vinculado al mundo del motor mediante colaboraciones mediáticas y proyectos personales.
+                </p>
+                <time>19-11-2025</time>
+                </div>
+                
+                <img src="imagenes/jorge-lorenzo.jpg" width="280">
+            </article>
+
+            <article class="article">
+                <div class="texto-noticia">
+                <a href="carrera_motogp.html"><h3>Assen 2015 - El duelo Rossi vs Márquez</h3></a>
+                <p>
+                    La carrera de <b>MotoGP</b> en Assen 2015 es recordada como una de las más emocionantes de los últimos años por la <b>lucha directa</b> entre Valentino Rossi y Marc Márquez.
+                </p>
+                <p>
+                    <b>Rossi</b> lideró gran parte de la prueba mientras <b>Márquez</b> lo presionaba constantemente. En la última vuelta, <b>Márquez</b> intentó adelantarlo en la chicane final, se tocaron ligeramente, <b>Rossi</b> se salió a la grava pero recuperó y cruzó primero la meta. Fue una carrera llena de tensión, velocidad y un final al límite, que la convirtió en histórica.
+                </p>
+                <time>19-11-2025</time>
+                </div>
+                
+                <img src="imagenes/motogp_2015_assen.jpg" width="310">
+            </article>
+        </section>
+    </main>
+
+        <div class="clearfix"></div>
+
+    <footer>
+        <a href="#arriba">Volver arriba</a>
+        <p>Curso HTML5 - Hugo Caballero - 2025 &copy;</p>
+    </footer>
+    </div>
+    </div>
+
+</body>
+</html>

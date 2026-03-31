@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="imagenes/moto-gp.png">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body id="arriba">
+    <div id="container">
+        <header>
+            <h1>Formulario</h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="informacion_relevante.html">Información Relevante</a></li>
+                <li><a href="pagina_contacto.html">Página de Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="clearfix"></div>
+
+        <main>
+            <section id="container">
+                <article class="article">
+                    <form>
+                        <fieldset>
+                            <legend>Formulario de Contacto</legend>
+                            <div>
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombre completo..." />
+                            </div>
+
+                            <div>
+                                <label for="apellidos">Apellidos:</label>
+                                <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos..." />
+                            </div>
+
+                            <div>
+                                <label for="email">Correo Electrónico:</label>
+                                <input type="email" name="email" id="email" placeholder="Correo..." />
+                            </div>
+
+                            <div>
+                                <label for="fecha">Fecha de nacimiento:</label>
+                                <input type="date" name="fecha" id="fecha" />
+                            </div>
+
+                            <div class="genero">
+                                <label id="titulo-genero">Género:</label>
+                                <input type="radio"  name="genero" id="hombre" value="hombre" />
+                                <label for="hombre">Hombre</label>
+                                
+                                <input type="radio" name="genero" id="mujer" value="mujer" />
+                                <label for="mujer">Mujer</label>
+
+                                <input type="radio" name="genero" id="otros" value="otros" />
+                                <label for="otros">Otros</label>
+                            </div>
+
+                            <div>
+                                <label for="pais">País de Residencia:</label>
+                                <select>
+                                    <option value="España">España</option>
+                                    <option value="Irlanda">Irlanda</option>
+                                    <option value="Italia">Italia</option>
+                                    <option value="Belgica">Bélgica</option>
+                                    <option value="Portugal">Portugal</option>
+                                    <option value="Francia">Francia</option>
+                                    <option value="Polonia">Polonia</option>
+                                    <option value="Noruega">Noruega</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="contacto">Motivo de contacto:</label>
+                                <textarea name="motivo de contacto" id="motivo de contacto" placeholder="Motivo de contacto"></textarea>
+                            </div>
+
+                        </fieldset>
+                        <input type="submit">
+                        <input type="reset">
+                        </form>
+                </article>
+            </section>
+        </main>
+         
+    <div class="clearfix"></div>
+
+    <footer>
+        <a href="#arriba">Volver arriba</a>
+        <p>Curso HTML5 - Hugo Caballero - 2025 &copy;</p>
+    </footer>
+    </div>
+</body>
+</html>

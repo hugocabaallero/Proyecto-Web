@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+     #container{
+        width: 100%;
+        margin: 0px auto;
+        border: 4px solid black;
+     }
+        
+        header{
+            background-color: rgb(187, 228, 91);
+            height: 100px;
+            width: 100%;
+            text-align: center;
+            line-height: 100px;
+            color: rgb(0, 0, 0);
+            border-bottom: 3px solid black;
+
+        }
+
+        .menu {
+            background-color: red;     
+            width: 70%;                  
+            margin: 20px auto;            
+            border-radius: 50px;         
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Sombrita suave abajo */
+            text-align: center;          
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 15px 0;             
+        }
+
+        .menu li {
+            display: inline-block;
+            margin: 0 15px;               
+            border-right: 2px solid white;  
+            padding-right: 20px;            
+            margin-right: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;        
+            color: white;                 
+            font-size: 18px;
+            font-weight: bold;           
+            font-family: sans-serif;
+        }
+
+        .menu a:hover {
+            color: black;                  
+        }
+   
+
+        .clearfix{
+            clear: both;
+        }
+
+        #content{
+            float: left;
+            width: 96%;
+            min-height: 1000px;
+            background: rgb(221, 220, 220);
+            padding: 40px;
+            font-size: 20px;
+        }
+
+        .article{
+            color: rgb(0, 0, 0);
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+        }
+
+        hr {
+            border: 0;              
+            border-top: 4px double black; 
+            height: 4px;            
+            margin: 20px 0;        
+        }
+        
+        video, iframe {
+            border-radius: 15px; 
+            overflow: hidden;    
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #audio-moto {
+            background-color: red;   
+            color: white;               
+            width: 500px;
+            height: 150px;              
+            padding: 20px;             
+            margin: 30px auto;          
+            border-radius: 15px;        
+            text-align: center;
+            font-size: 20px;   
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        #audio-moto audio {
+            width: 100%;
+            margin-top: 35px;
+        }
+
+        .article:first-child{
+            padding-top: 10px;
+            border-top: 1px solid #eee;
+        }
+
+        .article h3{
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .article a {
+        color: black;           
+        text-decoration: none; 
+        }
+
+        .article a:hover {
+        color: rgb(226, 0, 0);          
+        cursor: pointer;    
+        }
+
+        footer{
+            background: black;
+            color: white;
+            text-align: center;
+            height: 100px;
+            line-height: 50px;
+        }
+
+        footer a {
+            color: white;          
+            text-decoration: none;  
+            font-weight: bold;      
+        }
+
+        footer a:hover {
+            color: orange;        
+            text-decoration: underline;
+        }
