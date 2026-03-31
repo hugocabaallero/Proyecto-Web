@@ -1,8 +1,8 @@
 const USUARIO_1 = "hugo";
 const PASS_1 = "caballero";
 
-const USUARIO_2 = "manolo";
-const PASS_2 = "muela";
+const USUARIO_2 = "user";
+const PASS_2 = "user";
 
 function verificarCredenciales() {
     let usuarioInput = document.getElementById("usuario").value;
